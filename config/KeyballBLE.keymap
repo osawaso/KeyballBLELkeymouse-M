@@ -98,10 +98,10 @@
 
         MOUSE {
             bindings = <
-&kp BSPC  &kp N7  &kp N8   &kp N9  &kp DELETE  &kp LG(R)                             &kp LG(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans       &trans
-&kp DOT   &kp N4  &kp N5   &kp N6  &kp MINUS   &mkp MB3   &mkp MB3     &kp UP_ARROW  &mkp MB3   &mkp MB1         &mkp MB2           &trans  &lt 5 SPACE  &trans
-&kp N0    &kp N1  &kp N2   &kp N3  &kp ENTER   &trans     &kp SPACE    &kp DOWN      &trans     &mkp MB4         &mkp MB5           &trans  &trans       &trans
-&trans    &kp N0  &kp DOT  &trans  &kp LEFT    &kp SPACE  &kp RIGHT    &trans        &trans                                                 &trans       &to 0
+&trans  &trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LG(R)                             &kp LG(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans       &trans
+&trans  &lt 5 SPACE  &trans  &mkp MB1         &mkp MB2           &mkp MB3   &mkp MB3     &kp UP_ARROW  &mkp MB3   &mkp MB1         &mkp MB2           &trans  &lt 5 SPACE  &trans
+&trans  &trans       &trans  &mkp MB4         &mkp MB5           &trans     &kp SPACE    &kp DOWN      &trans     &mkp MB4         &mkp MB5           &trans  &trans       &trans
+&trans  &trans       &trans  &trans           &kp LEFT           &kp SPACE  &kp RIGHT    &trans        &trans                                                 &trans       &to 0
             >;
         };
 
